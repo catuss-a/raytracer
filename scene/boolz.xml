@@ -1,0 +1,12 @@
+<rtml name="sphere specular">
+  <scene>
+    <eye x=-400 z=40 reflect=1 shade=4 />
+    <light x=40 y=-20 z=40 color=0xFFFFFF intensity=100 />
+    <light x=-40 y=0 z=50 color=0xFFFFFF intensity=100 />
+    <light x=-120 y=-100 z=50 color=0xFFFFFF intensity=100 />
+    <sphere z=0 rayon=30 color=0x0000FF specular=1 shade=20 reflect=4 />
+    <sphere y=70 z=0 rayon=30 color=0x00FFFF specular=100 shade=20 reflect=70 />
+    <plan y=0 z=-40 Rx=0 Ry=0 reflect=20 color=0xFF0000 specular=1 shade=20 />
+    <cylinder y=-120 rayon=10 reflect=30 limit-bot-z=-100 limit-top-z=200 color=0x33CCAA specular=60 shade=20 />
+  </scene>
+</rtml>

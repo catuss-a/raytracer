@@ -1,0 +1,15 @@
+<rtml name="Hall_Of_Mirror">
+  <scene height="1024" width="768" anti-aliasing="1">
+    <eye x="-400" z="90" reflect="100" />
+    <light x="150" y="30" z="30" color="0xFFFFFF" />
+    <light x="-10" y="40" z="20" color="0xFFFFFF" />
+    <sphere z="20" rayon="20" color="0x0000FF" reflect="40" specular="100" shade="20" />
+    <cylinder y="90" rayon="20" reflect="40" color="0x0000FF" specular="100" shade="20" />
+    <cylinder y="-90" rayon="20" reflect="40" color="0x0000FF" specular="100" shade="20" />
+    <plan color="0xFF0000" reflect="20" />
+    <plan x="550" Ry="-90" color="0x00FF00" reflect="70" />
+    <plan y="120" Rx="90" Ry="-90" reflect="70" color="0x00FF00" />
+    <plan y="-120" Rx="-90" Ry="90" reflect="70" color="0x00FF00" />
+    <plan x="-500" Ry="90" reflect="70" color="0x001900" />
+  </scene>
+</rtml>

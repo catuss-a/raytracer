@@ -1,0 +1,12 @@
+/*
+** rtml_show_propertie.c for  in /partage/rt-v1.0
+** 
+** Made by jason brillante
+** Login   <brilla_a@epitech.net>
+** 
+** Started on  Sun Dec 19 21:22:39 2010 jason brillante
+** Last update Sun Dec 19 21:22:48 2010 jason brillante
+*/
+
+#include	"rtml.h"
+

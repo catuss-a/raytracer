@@ -1,0 +1,9 @@
+<rtml name="scene4">
+  <scene height="1024" width="768" anti-aliasing="2">
+    <eye x="-400" z="90" reflect="100" />
+    <light x="250" y="-100" z="150" color="0xFFFFFF" />
+    <light x="0" y="-50" z="0" color="0xFFFFFF" />
+    <cone x="250" y="-50" z="100" Rx="-10" rayon="1" color="0x00FFFF" specular="100" shade="20" />
+    <plan x="0" color="0xFFADAB" shade="20"/>
+  </scene>
+</rtml>

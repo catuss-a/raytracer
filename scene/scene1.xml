@@ -1,0 +1,8 @@
+<rtml name="scene1">
+  <scene height="1024" width="768" anti-aliasing="3">
+    <eye x="-400" z="90" reflect="100" />
+    <light x="120" y="-100" z="200" color="0xFFFFFF" />
+    <light x="85" y="-150" z="40" color="0xFFFFFF" />
+    <sphere x="150" y="-100" z="50" rayon="50" color="0xFF0000" />
+  </scene>
+</rtml>

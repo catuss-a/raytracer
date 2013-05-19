@@ -1,0 +1,16 @@
+<rtml name="scene7">
+  <scene height="1024" width="768" anti-aliasing="2">
+    <eye x="-400" z="90" reflect="100" />
+    <light x="50" y="80" z="150" color="0xFFFFFF" />
+    <light x="50" y="-80" z="150" color="0xFFFFFF" />
+    <sphere z="50" rayon="20" color="0x00FFAA" specular="100" shade="20" />
+    <sphere y="-100" z="100" rayon="20" color="0x00FFAA" specular="100" shade="20" />
+    <sphere y="100" z="100" rayon="20" color="0x00FFAA" specular="100" shade="20" />
+    <cylinder x="100" y="90" rayon="30" color="0x0000FF" specular="100" shade="20" />
+    <cylinder x="100" y="-90" rayon="30" color="0x0000FF" specular="100" shade="20" />
+    <cylinder x="-120" y="110" rayon="30" color="0x0000FF" specular="100" shade="20" />
+    <cylinder x="-120" y="-110" rayon="30" color="0x0000FF" specular="100" shade="20" />
+    <plan x="0" color="0xFFFFFF" reflect="50" shade="20"/>
+    <plan x="200" Ry="90" color="0xFFFFFF" reflect="50" shade="20"/>
+  </scene>
+</rtml>

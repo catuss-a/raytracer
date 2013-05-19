@@ -1,0 +1,13 @@
+<rtml name="Boolz5">
+  <scene width=1024 height=768>
+    <eye x=-300 z=42 reflect=100 />
+    <light x=-200 y=0 z=30 color=0xFFFFFF />
+    <plan z=0
+          color=0xFF00FF
+	  limit-top-x=100
+	  limit-bot-y=-100
+	  limit-top-y=100
+	  limit-bot-x=-100
+    />
+  </scene>
+</rtml>
